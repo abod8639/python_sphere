@@ -67,4 +67,4 @@ anim = animation.FuncAnimation(fig, animate, interval=60, repeat=False )
 plt.tight_layout()
 plt.show()
 
-anim.save('rotating_sphere.gif', writer='pillow', fps=30, dpi=10)
+# anim.save('rotating_sphere.gif', writer='pillow', fps=30, dpi=10)

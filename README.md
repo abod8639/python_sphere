@@ -34,12 +34,18 @@ This repository features a Python script that creates a visually captivating 3D 
    ```bash
    pip install numpy matplotlib
    ```
-3. Make the script executable (optional):
+
+3. Install the code :
+
+   ```
+   git clone https://github.com/abod8639/python_sphere.git
+   ```
+4. Make the script executable (optional):
 
    ```bash
    chmod +x sphere.sh
    ```
-4. Run the script:
+5. Run the script:
 
    ```bash
    python sphere.py
