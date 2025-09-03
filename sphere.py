@@ -1,3 +1,5 @@
+
+
 # Powered by DEXTER 
 
 import numpy as np
@@ -10,15 +12,17 @@ plt.rcParams['toolbar'] = 'None'
 
 plt.style.use('dark_background')  
 
-fig = plt.figure(figsize=(10, 10), facecolor='black')
+fig = plt.figure(figsize=(10, 8.0), facecolor='black')
 ax = fig.add_subplot(111, projection='3d')
 
 ax.set_facecolor('black')
 
 radius = 1
 
-u = np.linspace(0, 3 * np.pi, 59)  
-v = np.linspace(0, np.pi, 59)  
+x = 30
+
+u = np.linspace(0, 2 * np.pi, x)  
+v = np.linspace(0, np.pi, x // 2 )  
 
 x = radius * np.outer(np.cos(u), np.sin(v))
 y = radius * np.outer(np.sin(u), np.sin(v))
@@ -43,14 +47,16 @@ def animate(frame):
     y_rot =   y_z
     z_rot = - x_z * sin_y + z_z * cos_y
     
-    ax.plot_wireframe(x_rot, y_rot, z_rot, 
+    ax.plot_wireframe(x_rot,
+                      y_rot,
+                      z_rot, 
                      color='lime', 
-                     linewidth=0.9,
+                     linewidth=1.0,
                      alpha=0.5)
     
-    ax.set_xlim([-0.9, 0.8])
-    ax.set_ylim([-0.9, 0.8])
-    ax.set_zlim([-0.9, 0.8])
+    ax.set_xlim([-0.8, 0.75])
+    ax.set_ylim([-0.8, 0.75])
+    ax.set_zlim([-0.8, 0.75])
     
     ax.set_axis_off()
     
@@ -68,3 +74,5 @@ plt.tight_layout()
 plt.show()
 
 # anim.save('rotating_sphere.gif', writer='pillow', fps=30, dpi=10)
+
+

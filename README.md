@@ -1,10 +1,10 @@
-# Rotating 3D Sphere Animation 🌀
+# Rotating 3D Sphere Animation 
 
 **Powered by DEXTER**
 
 This repository features a Python script that creates a visually captivating 3D rotating sphere animation using Matplotlib. Designed for fun and visual delight, the script demonstrates smooth 3D transformations and modern aesthetics.
 
-## Code Overview ✨
+## Code Overview 
 
 - Renders a wireframe sphere that rotates seamlessly in 3D space
 - Applies a sleek dark theme for a modern look
@@ -14,10 +14,10 @@ This repository features a Python script that creates a visually captivating 3D 
 
 ## Key Features
 
-- 🖤 **Dark background theme** for a stylish, minimalist appearance
-- 🟢 **Lime-colored wireframe sphere** for vivid contrast
-- 🔄 **Smooth 3D rotation** using matrix transformations
-- 🎥 **Save as GIF** to share or use elsewhere
+-  **Dark background theme** for a stylish, minimalist appearance
+-  **Lime-colored wireframe sphere** for vivid contrast
+-  **Smooth 3D rotation** using matrix transformations
+-  **Save as GIF** to share or use elsewhere
 
 ## Technical Details
 
@@ -26,7 +26,7 @@ This repository features a Python script that creates a visually captivating 3D 
 - Easily customizable: adjust rotation speed, sphere size, color, and wireframe thickness
 - Clean, distraction-free visualization (no axes, grid, or toolbar)
 
-## How to Run 🚀
+## How to Run 
 
 1. Ensure you have Python installed
 2. Install required packages:
@@ -37,7 +37,7 @@ This repository features a Python script that creates a visually captivating 3D 
 
 3. Install the code :
 
-   ```
+   ```bash
    git clone https://github.com/abod8639/python_sphere.git
    ```
 4. Make the script executable (optional):
@@ -51,14 +51,14 @@ This repository features a Python script that creates a visually captivating 3D 
    python sphere.py
    ```
 
-## Output 📹
+## Output 
 
 - An interactive 3D animation window will appear
 - The animation is also saved as `rotating_sphere.gif` in the project directory
 
 ![gif](rotating_sphere.gif)
 
-## Customization Options 🛠️
+## Customization Options 
 
 You can easily modify:
 
@@ -67,7 +67,7 @@ You can easily modify:
 - **Sphere size**: Modify the `radius` value
 - **Wireframe thickness**: Set the `linewidth` parameter
 
-Enjoy the mesmerizing rotation! 😵‍💫
+Enjoy the mesmerizing rotation! 
 
 ---
 
